@@ -1,0 +1,146 @@
+body {
+    text-align: center;
+    background: linear-gradient(45deg, #8C082C, #26010B);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    
+}
+
+h1 {
+    font-size: 50px;
+    color: #BF0436;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 50px;
+    text-decoration: underline;
+    font-style: italic;
+    color: #EBF0F2;
+    font-weight: bold;
+}
+
+#date-time {
+    text-decoration: none;
+    font-style: oblique;
+    color: #F20544;
+
+}
+
+p {
+    margin-bottom: -15px;
+    color: #EBF0F2;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#main-section {
+    
+    max-width: 100%;
+    height: auto;
+    border: solid 3px black;
+    border-radius: 20px;
+    padding: 20px;
+    width: 50%;
+    height: 50%;
+    display: block;
+    margin: auto;
+
+}
+
+.button-style {
+    margin: 20px;
+    padding: 20px;
+    background-color: #26010B;
+    border-radius: 5px;
+    color: #EBF0F2;
+    width: 150px;
+    border: none;
+}
+
+.button_elements {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+}
+
+button:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+#submit, #reset {
+    padding: 10px;
+    margin: 5px;
+}
+
+#taskField {
+    padding: 15px;
+    margin: 5px;
+    width: 400px;
+    background-color: #26010B;
+    opacity: 80%;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin: auto;
+    border-radius: 10px;
+    border: none;
+}
+
+input:focus {
+    background-color: white;
+    border: none !important;
+}
+
+#label-field {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+}
+
+ul {
+    margin: auto;
+    width: 25%;
+    padding-left: 0px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    list-style-type: none;  
+         
+    
+}
+
+li {    
+    padding: 10px;
+    font-size: 25px;
+    text-decoration: none;
+    color: white; 
+    text-align: left;
+    float: left;
+         
+}
+
+li:hover {
+    cursor: pointer;
+}
+
+li button {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 15px;
+    float: right;
+    margin: 0px;
+    background-color: #26010B;
+    color: #EBF0F2;
+}
+
+
